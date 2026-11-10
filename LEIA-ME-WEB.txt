@@ -1,0 +1,19 @@
+AVENTURY — Reinos Esquecidos
+
+CONTEÚDO
+- Demo RPG 3D em primeira pessoa para navegador.
+- Magias de fogo, gelo, raio e cura.
+- Inimigos, chefe, cristal, portal, experiência, níveis e salvamento local.
+- Interface responsiva com controles de toque.
+- Manifesto PWA e cache básico para facilitar instalação como app web.
+
+COMO TESTAR
+1. Hospede a pasta inteira em um servidor HTTPS (por exemplo, GitHub Pages ou Netlify).
+2. Abra o endereço no Chrome do Android.
+3. Use "Adicionar à tela inicial" / "Instalar app", quando disponível.
+4. Para jogar, toque em INICIAR A JORNADA. No celular, use os botões na tela e arraste a área do jogo para olhar.
+
+IMPORTANTE SOBRE APK
+Esta entrega ainda NÃO é um APK nativo. O PWA permite instalar a experiência web pela tela inicial.
+Para gerar APK é necessário empacotar o projeto (por exemplo, Capacitor) e compilar/assinar com Android SDK/Android Studio ou um serviço de build Android. A geração e o teste do APK ainda não foram executados.
+O Three.js é carregado de CDN; a primeira abertura exige internet.
